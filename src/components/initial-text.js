@@ -1,0 +1,3 @@
+const initialText = "# Header\nWelcome to md-page, the easiest way to make a webpage from just markdown...\n## header two\n### header three\n#### header four\n##### header five\n*this will be italic*\n**this will be bold**\n~~this will be strike through~~\n__this will be underlined__\n## Lists\n### Unordered\n    * item one\n    * item two\n       * item a\n       * item b\n### Ordered\n    1. Item 1\n    1. Item 2\n    1. Item 3\n       1. item 3a\n\n# links\n[md-page Github repo](https://github.com/oscarmorrison/md-page) *give us a :star:*\n\n[demo page](https://oscarmorrison.com/md-page/)\n\nThanks for stopping by!"
+
+export default initialText;

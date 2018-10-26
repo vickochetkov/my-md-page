@@ -1,0 +1,50 @@
+%editor-viewer {
+  width: 100%;
+  height: 600px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Tahoma", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem;
+  box-sizing: border-box;
+  color: #595959;
+  /* font-size: 16px; */
+}
+
+.text-lg-center h1 {
+  font-size: 4rem;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+textarea {
+  @extend %editor-viewer;
+}
+
+textarea:hover, #preview:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+#preview {
+  @extend %editor-viewer;
+  border: 1px solid grey;
+  background-color: #66b3ff;
+  overflow: auto;
+}
