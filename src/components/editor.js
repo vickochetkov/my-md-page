@@ -8,7 +8,15 @@ export default class Editor extends Component {
   }
 
   handleChange = e => {
-    this.setState({ input: e.currentTarget.value })
+    this.setState({ input: e.currentTarget.value });
+  }
+
+  onClickSample = () => {
+    this.setState({ input: initialText });
+  }
+
+  onClickHandle = () => {
+    this.setState({ input: '' });
   }
 
   render() {
@@ -18,12 +26,20 @@ export default class Editor extends Component {
       <div className="row">
         <div className="col">
           <form className="editor" id="editor">
-          <textarea
-          value={this.state.input}
-          type="text"
-          // placeholder="text here"
-          onChange={this.handleChange}></textarea>
+            <textarea
+              value={this.state.input}
+              type="text"
+              onChange={this.handleChange}>
+            </textarea>
           </form>
+          <button
+            className="btn btn-success"
+            onClick={this.onClickSample}
+          >Sample</button>
+          <button
+            className="btn btn-info"
+            onClick={this.onClickHandle}
+          >Clear</button>
         </div>
         <div className="col" >
           <Previewer text={input} />

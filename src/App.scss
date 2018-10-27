@@ -5,6 +5,7 @@
   font-size: 1.5rem;
   padding: 10px;
   border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 *,
@@ -23,9 +24,16 @@ body {
   font-weight: 400;
   line-height: 1.7;
   padding: 3rem;
+  margin: 2rem;
   box-sizing: border-box;
+  border-width:5px;
+  border-style:ridge;
   color: #595959;
+  // background-color: #e6e6e6;
   /* font-size: 16px; */
+}
+
+.row {
 }
 
 .text-lg-center h1 {
@@ -47,4 +55,9 @@ textarea:hover, #preview:hover {
   border: 1px solid grey;
   background-color: #66b3ff;
   overflow: auto;
+}
+
+button {
+  margin: 5px;
+  width: 50px;
 }

@@ -6,7 +6,7 @@ import './App.scss';
 
 function MyMDpage() {
   return (
-    <div>
+    <div className="frame shadow-lg rounded">
       <div className="text-lg-center">
           <h1>My React MD Page</h1><hr/>
       </div>
