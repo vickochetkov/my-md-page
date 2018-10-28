@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     * a header (H1 size);
     * a sub header (H2 size);
     * a link;
-    * inline code;
+    * an inline code;
     * a code block;
     * a list item;
     * a blockquote;
