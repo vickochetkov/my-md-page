@@ -3,10 +3,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-*** Description
+### Description
 
 * HTML, CSS, SCSS
-* Marked library: Marked.js was imported from [links] (https://cdnjs.com/libraries/marked)
+* Marked library: [Marked.js] (https://cdnjs.com/libraries/marked)
 **React components features:**
 * Create React App
 * Parent-Children relations between Editor and Previewer components;
@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Button to clear preloaded (or existing) text;
 * Button to show example text;
 
-*** User story
+### User story
 #1: User can see a textarea input element.
 #2: User can see a preview output element.
 #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
