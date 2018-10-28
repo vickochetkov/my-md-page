@@ -15,10 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
      * Button to show example text;
 
 ### User story
-* #1: User can see a textarea input element.
-1.   2: User can see a preview output element.
-1.   3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
-1.   4: When the App first loads, the markdown placeholder in the Editor's field  contains valid markdown that represents following elements:
+1.  User can see a textarea input element.
+1.  User can see a preview output element.
+1.  When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
+1.  When the App first loads, the markdown placeholder in the Editor's field  contains valid markdown that represents following elements:
     * a header (H1 size);
     * a sub header (H2 size);
     * a link;
@@ -30,9 +30,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     * bolded text;
     * italic text;
     * crossing text.    
-5: When the App first loads, the default markdown placeholder in the Editor's field renders as HTML in the Previewer.
-6: When User enter markdown text into the Editor, the text is rendered as HTML in the Previewer as User types.
-7: When User clicks a link rendered by the App, the link is opened up in a new tab.
-8: The App interprets carriage returns and renders them as br (line break) elements.
+1.  When the App first loads, the default markdown placeholder in the Editor's field renders as HTML in the Previewer.
+1.  When User enter markdown text into the Editor, the text is rendered as HTML in the Previewer as User types.
+1.  When User clicks a link rendered by the App, the link is opened up in a new tab.
+1.  The App interprets carriage returns and renders them as br (line break) elements.
 
 ![Jest watch mode](https://raw.githubusercontent.com/vickochetkov/my-md-page/master/img/11.gif)
