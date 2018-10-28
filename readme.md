@@ -35,5 +35,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1.  When User clicks a link rendered by the App, the link is opened up in a new tab.
 1.  The App interprets carriage returns and renders them as br (line break) elements.
 
-####Click to zoom
+####    Click to zoom
 ![Jest watch mode](https://raw.githubusercontent.com/vickochetkov/my-md-page/master/img/11.gif)
