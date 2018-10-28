@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Description
 
 * HTML, CSS, SCSS
-* Marked library: [Marked.js] (https://cdnjs.com/libraries/marked)
+* Marked library: [Marked.js](https://cdnjs.com/libraries/marked)
 **React components features:**
 * Create React App
 * Parent-Children relations between Editor and Previewer components;
