@@ -1,3 +1,10 @@
+## My React MD Page
+#### React Markdown Application
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+**Description**
+
 * User Story #1: I can see a textarea element with a corresponding id="editor".
 * User Story #2: I can see an element with a corresponding id="preview".
 * User Story #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
