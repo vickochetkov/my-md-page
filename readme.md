@@ -7,12 +7,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * HTML, CSS, SCSS
 * Marked library: [Marked.js](https://cdnjs.com/libraries/marked)
-**React components features:**
-* Create React App
-* Parent-Children relations between Editor and Previewer components;
-* Initial state loads data from file with const string;
-* Button to clear preloaded (or existing) text;
-* Button to show example text;
+* ### React components features:
+      * Create React App
+      * Parent-Children relations between Editor and Previewer components;
+      * Initial state loads data from file with const string;
+      * Button to clear preloaded (or existing) text;
+      * Button to show example text;
 
 ### User story
 #1: User can see a textarea input element.
