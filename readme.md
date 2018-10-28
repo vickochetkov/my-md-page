@@ -16,9 +16,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### User story
 * #1: User can see a textarea input element.
-1 2: User can see a preview output element.
-1 3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
-1 4: When the App first loads, the markdown placeholder in the Editor's field  contains valid markdown that represents following elements:
+1   2: User can see a preview output element.
+1   3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
+1   4: When the App first loads, the markdown placeholder in the Editor's field  contains valid markdown that represents following elements:
     * a header (H1 size);
     * a sub header (H2 size);
     * a link;
